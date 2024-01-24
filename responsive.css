@@ -1,0 +1,80 @@
+@media(max-width:600px){
+    body{
+        margin: 0;
+    justify-content: center;
+    margin-left: auto;
+    margin-left: auto;
+    width: 500px;
+    }
+    .education{
+        padding-top:1rem;
+        color: #fff;
+    }
+    .navigation{
+    background-image: url(pexels-photo-943096.jpeg);
+    filter:brightness(0.5);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    position: relative;
+}
+    .nav-link{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.nav-link a{
+    text-decoration:none;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.myPhoto{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 110px;
+   margin-left: 150px;
+}
+.myPhoto img{
+    border-radius: 50%;
+    height: 200px;
+    width: 170px; 
+}
+.title1,.title2{
+  display: grid;
+  justify-content: space-around;
+  padding-top:3rem;
+}
+.title2{
+width: 500px;
+}
+.title3 h2{
+font-size: 40px;
+padding-left: 2rem;
+}
+.projects{
+display: grid;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+gap: 30px;
+}
+.img1 a:hover{
+filter:brightness(0.5)
+}
+.img2 a:hover{
+filter:brightness(0.5)
+}
+.img3 a:hover{
+filter:brightness(0.5)
+}
+p{
+color: #3c3a3a;
+}
+li{
+color: #dfdada;
+}
+}
