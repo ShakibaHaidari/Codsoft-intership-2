@@ -101,5 +101,22 @@ p{
   li{
     color: #dfdada;
   }
+  .contact-links{
+    display:flex;
+    align-items:center;
+    margin-right:auto;
+    margin-left:auto;
+    justify-content:center;
+  }
+  .contact{
+    padding-top:2rem;
+  }
+  .contact h2{
+    padding-left:3rem;
+    font-size:38px;
+  }
+  .contact p{
+    text-align:center;
+  }
   
    
